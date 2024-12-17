@@ -1,6 +1,3 @@
-Author: **Schmid Felix**
-
-Date: **15.10.2024**
 
 ## 1. Introduction
 
