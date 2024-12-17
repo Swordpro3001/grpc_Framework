@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service ElectionData {
+  rpc GetElectionResults (ElectionRequest) returns (ElectionResponse);
+}
+
+message ElectionRequest {
+  string region = 1;
+}
+
+message ElectionResponse {
+  string candidate = 1;
+  int32 votes = 2;
+}
